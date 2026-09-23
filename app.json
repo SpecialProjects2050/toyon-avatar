@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Toyon Avatar",
+    "slug": "toyon-avatar",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#FEF9F5",
+    "splash": {
+      "backgroundColor": "#FEF9F5"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "studio.toyon.orb"
+    },
+    "android": {
+      "package": "studio.toyon.orb",
+      "adaptiveIcon": {
+        "backgroundColor": "#FEF9F5"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single"
+    },
+    "newArchEnabled": true,
+    "plugins": [
+      "expo-status-bar",
+      "expo-image"
+    ]
+  }
+}
